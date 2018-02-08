@@ -1,0 +1,107 @@
+div#styleswitcher-bar{	
+	width:100%;	
+	margin:0 0 0px 0;	
+	padding:0px;	
+	background:#333;
+	border-bottom:1px solid #000;
+	position:fixed;	
+	left:0px;	
+	top:0px;	
+	z-index:99998;	
+	height:60px;
+}
+div#styleswitcher-bar-inner{	
+	width:1000px;
+	margin:0 auto;	
+	position:relative;
+	height:60px;
+}
+.single-type-box{
+	width:180px;
+	float:left;
+	background:#fff;
+	margin:10px 10px 0 0;
+	font-size:13px;
+	border:1px solid #000;
+}
+.single-type-name{
+	width:180px;
+	height:40px;
+	float:left;
+	position:relative;
+}
+.single-type-name p{
+	margin:10px 0 0 10px;
+	width:auto;
+	float:left;
+}
+.single-type-name span{
+	float:right;
+	font-size: 0px; 
+	line-height: 0%; 
+	width: 0px;
+	margin:17px 10px 0 0px;
+	border-bottom:none;
+	border-top: 8px solid #ccc;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+div#styleswitcher-bar-inner ul{	
+	width180px;
+	background:#fff;
+	list-style:none;
+	float:left;
+	padding-bottom:10px;
+	display:none;
+}
+div#styleswitcher-bar-inner ul li{	
+	float:left;
+	width:160px;
+	padding:5px 10px;
+}
+div#styleswitcher-bar-inner ul li:hover{
+	cursor:pointer;
+}
+.cm-cl-pink:hover{
+	border:1px solid #ff004e;
+}
+.cm-cl-sel-pink,
+.cm-cl-pink li:hover{
+	background:#ff004e;
+	color:#fff;
+}
+.cm-cl-blue:hover{
+	border:1px solid #0a94cc;
+}
+.cm-cl-blue li:hover{
+	background:#0a94cc;
+	color:#fff;
+}
+.cm-cl-green:hover{
+	border:1px solid #0ecc0a;
+}
+.cm-cl-green li:hover{
+	background:#0ecc0a;
+	color:#fff;
+}
+#cm-buy-item{
+	float:left;
+	background:#ff004e;
+	margin:10px 10px 0 0;
+	font-size:14px;
+	border:1px solid #000;
+	padding:10px 15px;
+	color:#fff;
+}
+#cm-buy-item:hover{
+	text-decoration:none;
+	border:1px solid #fff;
+}
+#cm-logo{
+	float:right;
+	margin:3px 0 0 0;
+}
+#cm-logo img{
+	width:178px;
+	height:60px;
+}
